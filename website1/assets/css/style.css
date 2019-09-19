@@ -24,3 +24,12 @@ body{
     text-align: center;
     font-family: 'Indie Flower', cursive;
 }
+
+.bg-white {
+    background: white;
+}
+
+.contact-card {
+    margin-left: 150px;
+    margin-right: 150px;
+}
