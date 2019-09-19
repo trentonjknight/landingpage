@@ -1,3 +1,26 @@
 body{
     background:white;
 }
+
+.tagline_bg {
+    background: url('../img/bg.jpg') no-repeat;
+    background-size: 100%;
+    height: 800px;
+    padding-top: 6%;
+}
+.tagline_title1 {
+    background-color: #FFFFFF;
+    color: #696969;
+    font-size: 140px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+.tagline_title2 {
+    background-color: #FFFFFF;
+    color: #696969;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
