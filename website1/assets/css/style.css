@@ -11,7 +11,7 @@ body{
 .tagline_title1 {
     background-color: #FFFFFF;
     color: #696969;
-    font-size: 140px;
+    font-size: 30vh;
     font-weight: bold;
     text-align: center;
     font-family: 'Indie Flower', cursive;
@@ -19,7 +19,7 @@ body{
 .tagline_title2 {
     background-color: #FFFFFF;
     color: #696969;
-    font-size: 80px;
+    font-size: 15vh;
     font-weight: bold;
     text-align: center;
     font-family: 'Indie Flower', cursive;
@@ -33,3 +33,48 @@ body{
     margin-left: 150px;
     margin-right: 150px;
 }
+
+/* START CSS For Service Section */
+.service {
+    padding: 50px 0 50px 0;
+}
+.service_big_avatar {
+    background-image: url('../img/2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 20px;
+}
+.service_h1_grey {
+    color: grey;
+}
+.service_text {
+    padding-top: 40px;
+}
+.service_text p {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 1100px) {
+.service_big_avatar  {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 800px) {
+.service_big_avatar  {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media only screen and (max-width: 400px) {
+.service_big_avatar  {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* END CSS For Service Section */
