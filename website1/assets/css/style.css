@@ -82,3 +82,12 @@ body{
 }
 
 /* END CSS For Service Section */
+
+
+/* Navbar */
+.nav-link:hover {
+    color:black!important;
+    background-color: #f5ab99;
+    border-radius: 5px;
+    border: 1px solid black;
+}
